@@ -1,7 +1,7 @@
 import { TextField } from '@mui/material'
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { searchMovies } from './redux/search'
+import { searchMovies } from '../redux/search'
 
 const Suggestions = () => {
   const dispatch=  useDispatch();
