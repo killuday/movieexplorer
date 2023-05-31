@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux'
 const SearchBar = () => {
   const {search}=  useSelector((store)=> store)
   return (
-    <Suggestions />
+    <Suggestions movies={search} />
   )
 }
 
